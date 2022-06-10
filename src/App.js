@@ -1,4 +1,5 @@
 import './App.css';
+import Blog from './Component/Blog/Blog';
 import Contact from './Component/Contact/Contact';
 import Footer from './Component/Footer';
 import Header from './Component/Head/Header';
@@ -13,7 +14,7 @@ function App() {
       <Home></Home>
       <Portfolio></Portfolio>
       <Contact></Contact>
-
+      <Blog></Blog>
       {/* <Testimonial></Testimonial> */}
       <Footer></Footer>
     </div>

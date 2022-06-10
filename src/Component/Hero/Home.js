@@ -17,13 +17,14 @@ const Home = () => {
               Hi, I'M <span>MD RAKIBUL ISLAM</span>
             </h1>
             <h2>
-              I am
+              a
               <span>
                 <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
               </span>
             </h2>
 
             <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. Iâ€™m not adding motion just to spruce things up, but doing it in ways that.</p>
+            
 
             <div className='hero_btn d_flex'>
               <div className='col_1'>

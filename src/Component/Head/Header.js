@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./Header.css"
 import logo from "../pic/logo.png"
+import Resume from './resume.pdf'
 
 const Header = () => {
   // fixed Header
@@ -43,7 +44,9 @@ const Header = () => {
                 <a href='#contact'>contact</a>
               </li>
               <li>
-                <button className='home-btn'>BUY NOW</button>
+              <a href={Resume} download>
+          <button className="home-btn">Download Resume</button>
+        </a>
               </li>
             </ul>
 

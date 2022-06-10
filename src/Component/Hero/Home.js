@@ -23,36 +23,29 @@ const Home = () => {
               </span>
             </h2>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. Iâ€™m not adding motion just to spruce things up, but doing it in ways that.</p>
+            <p> I am Experienced with HTML, CSS, React.js, JavaScript,Firebase,MongoDb.
+ I am passionate about what I do and eager to learn what I am not familiar with. 
+I try to be focused while I work on something and don't hesitate to ask for help or guidance from others. </p>
             
 
-            <div className='hero_btn d_flex'>
+            <div className='hero_btn d_flex col_1'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
+                    <a href="https://www.facebook.com/profile.php?id=100006231346777"><i class='fab fa-facebook-f'></i></a>
+                    
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
+                    <a href="https://www.instagram.com/rakibislam_/"><i class='fab fa-instagram'></i></a>
+                    
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-linkedin-in'></i>
+                    <a href="https://www.linkedin.com/in/md-rakibul-islam-711912238/"><i class='fab fa-linkedin-in'></i></a>
                   </button>
                 </div>
               </div>
-              <div className='col_1'>
-                <h4>BEST SKILL ON</h4>
-                <button className='btn_shadow'>
-                  <img src={skill1} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                  <img src={skill2} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                  <img src={skill3} alt='' />
-                </button>
-              </div>
+              
             </div>
           </div>
           <div className='right'>

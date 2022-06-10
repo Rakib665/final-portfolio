@@ -18,14 +18,15 @@ const Card = (props) => {
         <div className='img'>
           <img src={props.image} alt='' onClick={toggleModal} />
         </div>
+        <ul>
+            <ol>This project made by html,css.javascript,react,firebase,mongodb</ol>
+          </ul>
         <div className='category d_flex'>
-          <span onClick={toggleModal}>{props.category}</span>
-          <label>
-            <i className='far fa-heart'></i> {props.totalLike}
-          </label>
+          
         </div>
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title}</h2>
+         
           <a href='#popup' className='arrow' onClick={toggleModal}>
             <i class='fas fa-arrow-right'></i>
           </a>
@@ -41,10 +42,16 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <ul>
+              <li>This project made by html,css.javascript,react,firebase,mongodb</li>
+              <li>This is basically moto parts website.</li>
+              <li>Here has one home route dashboard</li>
+              <li>Dashboard based on admin and user</li>
+              <li>Admin can manage all products</li>
+              <li>This website allows customers to order car parts for their businesses.</li>
+              <li>They simply need to log in to the website and determine how much they require.</li>
+              </ul>
               <div className='button f_flex mtop'>
                 <a href={props.git} className='btn_shadow'>
                   GITHUB LINK <i class="fa-brands fa-github"></i>

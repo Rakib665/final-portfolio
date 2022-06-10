@@ -150,3 +150,10 @@ body.active-modal {
     padding: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
